@@ -59,6 +59,10 @@ nav {
     color: #1E1E1E;
 }
 
+.dark-3 {
+    color: #757575;
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -153,4 +157,32 @@ main {
 
 .skill-description {
     text-align: justify;
+}
+
+/* Resume section styles */
+.resume {
+    margin: 10px 150px;
+}
+
+.resume-heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 40px;
+}
+
+.resume-column-title {
+    color: #1E1E1E;
+}
+
+.education-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.download-cv {
+    margin: 35px 0px;
 }
