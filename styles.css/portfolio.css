@@ -186,3 +186,35 @@ main {
 .download-cv {
     margin: 35px 0px;
 }
+
+/* Footer styles */
+
+footer {
+    padding: 100px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.link-holder a {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
