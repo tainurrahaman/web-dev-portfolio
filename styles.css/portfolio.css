@@ -218,3 +218,60 @@ footer textarea {
     margin-bottom: 20px;
     font-family: "Open Sans", sans-serif;
 }
+
+/* Responsive Website */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:572px) {
+    .skills {
+        padding: 20px;
+    }
+
+    .text-align {
+        text-align: justify;
+    }
+
+    .skills-container,
+    .resume-container,
+    footer {
+        flex-direction: column;
+    }
+
+    .resume {
+        margin: 10px;
+    }
+
+    .education-description {
+        font-size: 15px;
+    }
+
+    .section-description {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: calc(100% - 40px);
+    }
+
+    .footer-descriptions {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .link-holder a {
+        padding: 10px;
+    }
+
+    .btn-primary {
+        padding: 9px 18px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}
