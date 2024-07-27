@@ -226,6 +226,10 @@ footer textarea {
 }
 
 @media screen and (max-width:572px) {
+    .about {
+        padding: 20px;
+    }
+
     .skills {
         padding: 20px;
     }
@@ -236,7 +240,8 @@ footer textarea {
 
     .skills-container,
     .resume-container,
-    footer {
+    footer,
+    .about-items {
         flex-direction: column;
     }
 
@@ -250,6 +255,11 @@ footer textarea {
 
     .section-description {
         font-size: 15px;
+        text-align: justify;
+    }
+
+    .section-title {
+        font-size: 25px;
     }
 
     footer {
