@@ -89,6 +89,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     margin: 0 30px 0 200px;
+    /* width: calc(100% - 230px); */
 }
 
 .banner-greetings {
@@ -226,6 +227,10 @@ footer textarea {
 }
 
 @media screen and (max-width:572px) {
+    .header {
+        background-image: none;
+    }
+
     .about {
         padding: 20px;
     }
@@ -241,8 +246,35 @@ footer textarea {
     .skills-container,
     .resume-container,
     footer,
-    .about-items {
+    .about-items,
+    .banner,
+    nav {
         flex-direction: column;
+    }
+
+    .banner {
+        margin: 15px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        min-width: auto;
+    }
+
+    .banner-greetings {
+        font-size: 30px;
+    }
+
+    .banner-description {
+        font-size: 15px;
+    }
+
+    .banner-profile {
+        width: 100%;
     }
 
     .resume {
